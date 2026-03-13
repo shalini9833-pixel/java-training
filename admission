@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+public class Solution {
+public static void main(String[] args){
+int n,m;
+Scanner s=new Scanner(System.in);
+ n=s.nextInt();
+ m=s.nextInt();
+if(n>=18&&m>=40)
+{
+System.out.println("Eligible");
+}
+else
+ {
+ System.out.println("Not Eligible");
+ }
+ }
+}
