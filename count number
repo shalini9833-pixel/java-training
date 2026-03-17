@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class CountNumbers {
+    public static void main(String[] args) {
+        int start = 10;
+        int end = 50;
+        
+        int count = 0;
+        
+        for (int i = start + 1; i < end; i++) {
+            count++;
+        }
+        
+        System.out.println("Count of numbers between " + start + " and " + end + " = " + count);
+    }
+}
+
+
